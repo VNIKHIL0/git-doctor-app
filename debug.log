@@ -1,0 +1,210 @@
+2026-02-09T06:39:55.743Z [console][error] A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload assetPrefix="" globalError={[...]}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="/orchids-p...">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <script>
+                      <RootLayout>
+                        <html data-orchids-id="src\app\la..." data-orchids-name="html" lang="en" className="dark">
+                          <body
+                            data-orchids-id="src\app\layout.tsx:28:6"
+                            data-orchids-name="body"
+                            className="geist_a71539c9-module__T19VSG__variable geist_mono_8d43a2aa-module__8Li5zG__var..."
+-                           data-orchid-ref="ref-i2m332lz9b"
+                          >
+                            ...
+                              <SegmentViewNode type="page" pagePath="/orchids-p...">
+                                <SegmentTrieNode>
+                                <ClientPageRoot Component={function Home} searchParams={{}} params={{}}>
+                                  <Home params={Promise} searchParams={Promise}>
+                                    <div
+                                      data-orchids-id="src\app\page.tsx:98:4"
+                                      data-orchids-name="div"
+                                      className="min-h-screen bg-background"
+-                                     data-orchid-ref="ref-gt14tbg54k"
+                                    >
+                                      <header
+                                        data-orchids-id="src\app\page.tsx:100:6"
+                                        data-orchids-name="header"
+                                        className="border-b border-zinc-800"
+-                                       data-orchid-ref="ref-sw1kcngg2v"
+                                      >
+                                        <div
+                                          data-orchids-id="src\app\page.tsx:101:8"
+                                          data-orchids-name="div"
+                                          className="mx-auto max-w-6xl px-6 py-4 flex items-center justify-between"
+-                                         data-orchid-ref="ref-hgt8qi5197"
+                                        >
+                                          <div
+                                            data-orchids-id="src\app\page.tsx:102:10"
+                                            data-orchids-name="div"
+                                            className="flex items-center gap-3"
+-                                           data-orchid-ref="ref-i13ahcy8b6"
+                                          >
+                                            <div
+                                              data-orchids-id="src\app\page... [truncated]
+2026-02-09T06:39:55.742Z [console][error] A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload assetPrefix="" globalError={[...]}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="/orchids-p...">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <script>
+                      <RootLayout>
+                        <html data-orchids-id="src\app\la..." data-orchids-name="html" lang="en" className="dark">
+                          <body
+                            data-orchids-id="src\app\layout.tsx:28:6"
+                            data-orchids-name="body"
+                            className="geist_a71539c9-module__T19VSG__variable geist_mono_8d43a2aa-module__8Li5zG__var..."
+-                           data-orchid-ref="ref-i2m332lz9b"
+                          >
+                            ...
+                         ...
+2026-02-09T06:39:55.743Z [console][error] A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload assetPrefix="" globalError={[...]}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="/orchids-p...">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <script>
+                      <RootLayout>
+                        <html data-orchids-id="src\app\la..." data-orchids-name="html" lang="en" className="dark">
+                          <body
+                            data-orchids-id="src\app\layout.tsx:28:6"
+                            data-orchids-name="body"
+                            className="geist_a71539c9-module__T19VSG__variable geist_mono_8d43a2aa-module__8Li5zG__var..."
+-                           data-orchid-ref="ref-i2m332lz9b"
+                          >
+                            ...
+                              <SegmentViewNode type="page" pagePath="/orchids-p...">
+                                <SegmentTrieNode>
+                                <ClientPageRoot Component={function Home} searchParams={{}} params={{}}>
+                                  <Home params={Promise} searchParams={Promise}>
+                                    <div
+                                      data-orchids-id="src\app\page.tsx:98:4"
+                                      data-orchids-name="div"
+                                      className="min-h-screen bg-background"
+-                                     data-orchid-ref="ref-gt14tbg54k"
+                                    >
+                                      <header
+                                        data-orchids-id="src\app\page.tsx:100:6"
+                                        data-orchids-name="header"
+                                        className="border-b border-zinc-800"
+-                                       data-orchid-ref="ref-sw1kcngg2v"
+                                      >
+                                        <div
+                                          data-orchids-id="src\app\page.tsx:101:8"
+                                          data-orchids-name="div"
+                                          className="mx-auto max-w-6xl px-6 py-4 flex items-center justify-between"
+-                                         data-orchid-ref="ref-hgt8qi5197"
+                                        >
+                                          <div
+                                            data-orchids-id="src\app\page.tsx:102:10"
+                                            data-orchids-name="div"
+                                            className="flex items-center gap-3"
+-                                           data-orchid-ref="ref-i13ahcy8b6"
+                                          >
+                                            <div
+                                              data-orchids-id="src\app\page... [truncated]
+2026-02-09T06:39:55.742Z [console][error] A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload assetPrefix="" globalError={[...]}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="/orchids-p...">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <script>
+                      <RootLayout>
+                        <html data-orchids-id="src\app\la..." data-orchids-name="html" lang="en" className="dark">
+                          <body
+                            data-orchids-id="src\app\layout.tsx:28:6"
+                            data-orchids-name="body"
+                            className="geist_a71539c9-module__T19VSG__variable geist_mono_8d43a2aa-module__8Li5zG__var..."
+-                           data-orchid-ref="ref-i2m332lz9b"
+                          >
+                            ...
+                         ...
